@@ -1,0 +1,38 @@
+/* Seletor de elementos */
+p{
+    text-align: left;
+    color: rgb(47, 12, 243);
+
+}
+
+h1{
+    color: navy;
+    text-align: center;
+}
+
+/* seletor de ID */
+#pg1{
+    text-align: center;
+    color: orange;
+}
+
+/* Seletores de classe */
+.myclass{
+    border: 0.2em ridge pink;
+}
+
+/* Junção de Seletores */
+li.myclass{
+    font-size: xx-large;
+}
+
+.newclass{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Using RGB */
+.teste-cores{
+    padding:2%;
+    background-color: rgba(187, 243, 92, 0.4);
+}
+

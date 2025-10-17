@@ -1,0 +1,38 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;    
+}
+
+.menu{
+    background-color: lightblue;
+    padding: 2rem;
+    margin-right: 1rem;
+    
+}
+
+.content{
+    padding: 2rem;
+}
+
+.item-menu{
+    list-style-type: none;
+    padding: 0.6rem;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.item-menu:hover{
+    background-color: lightgreen;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+#sec1{
+    background-color: azure;
+}

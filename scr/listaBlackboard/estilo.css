@@ -1,0 +1,48 @@
+
+/* Crie trˆes par´agrafos com classes diferentes (.um, .dois, .tres) e aplique as
+seguintes cores via CSS: */
+.um{
+    color: red;
+}
+
+.dois{
+    color: blue;
+}
+
+.tres{
+    color: purple;
+}
+
+.p1{
+    color: gray;
+}
+
+.ppar{
+    color: orange;
+}
+
+.plast{
+    font-style: italic;
+}
+
+.verde{
+    color: green;
+}
+
+.mclovin{
+    color: green;
+}
+
+.cool{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+
+}
+
+li:hover{
+    color: red;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <title>CSS e tags</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <h1>CSS e tags</h1>
+  <h2>Tabelas</h2>
+  <table>
+    <tr>
+      <!-- TR - TABLE ROW (DADOS) -->
+      <th>Col1</th>
+      <th>Col2</th>
+      <!-- TH - TABLE HEAD (CABEÇA) -->
+    </tr>
+    <tr>
+      <td>Gabriel Barrocal</td>
+      <td>gabriel@gmail.com</td>
+      <!-- TD - TABLE DATA (DADOS) -->
+    </tr>
+  </table>
+
+  <p>
+    Exemplo de tabela com cabeçalho (thead), corpo (tbody) e rodapé (tfooter)
+  </p>
+
+  <table>
+    <thead>
+      <th>Aluno</th>
+      <th>Nota 1</th>
+      <th>Nota 2</th>
+      <th>Média</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mateus Silva</td>
+        <td>0</td>
+        <td>2</td>
+        <td>1</td>
+      </tr>
+
+      <tr>
+        <td>Caio Vinicius</td>
+        <td>92</td>
+        <td>40</td>
+        <td>130</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <th>Tabelas de notas dos alunos</th>
+    </tfoot>
+  </table>
+  <p>Colspan e rowspan - mesclando células</p>
+  <table>
+    <tr>
+      <!-- Table Row (linha) -->
+      <th>Coluna 1</th>
+      <th>Coluna 2</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Dado 1</td>
+      <td>Dado 2</td>
+    </tr>
+    <tr>
+      <td>Dado 3</td>
+    </tr>
+    <tr>
+      <td>Dado 3</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>Coluna 1</th>
+      <th>Coluna 2</th>
+    </tr>
+    <tr>
+      <td colspan="2">Dado 1</td>
+    </tr>
+    <tr>
+      <td>Dado 3</td>
+      <td>Dado 4</td>
+    </tr>
+</body>
+
+</html>
