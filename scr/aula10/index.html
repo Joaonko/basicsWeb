@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Aula 10</title>
+</head>
+
+<body>
+    <div>
+    <p>
+        Selecione um radio button e clique em enviar
+    </p>
+    <p>
+        Genero:
+    </p>
+    <input type="radio" name="gender" value="Masculino">Masculino
+    <input type="radio" name="gender" value="Feminino">Feminino
+    <input type="radio" name="gender" value="Outro">Outro
+    <p></p>
+    <button type="button" onclick="displayRadioValue()">
+        Enviar
+    </button>
+    <div id="result"></div>
+</div>
+<br>
+<br>
+
+<div>
+    <h2>Qual elemento da lista foi selecionado?</h2>
+    <p>
+        Selecione uma das opções de plano:
+        <select name="" id="select1">
+            <option value="free">Free</option>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+        </select>
+    </p>
+
+    <p>
+        O valor Selecionado é:
+        <span class="output"></span>
+    </p>
+    <button class="bg-primary" onclick="getOption()">Veja a Seleção</button>
+</div>
+</body>
+</html>
+<script src="js/script.js"></script>
+
